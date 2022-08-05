@@ -1,0 +1,32 @@
+.case {
+    height: 341px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    margin: 20px;
+    color: black;
+    cursor: pointer;
+}
+.case__img {
+    width: 100%;
+}
+.case__title {
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.case__image {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 900px) {
+    .case__title {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    
+}
